@@ -1,0 +1,27 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+.book {
+    border: 1px solid var(--background-modifier-border);
+    padding: 10px;
+  }
+  
+  .book__title {
+    font-weight: 600;
+  }
+  
+  .book__author {
+    color: var(--text-muted);
+  }
+
+  .nP{
+    color:green;
+  }
+  .nR{
+    color:red;
+  }

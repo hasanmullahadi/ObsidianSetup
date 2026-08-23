@@ -1,0 +1,13 @@
+{
+	"id": "Financial-statement",
+	"name": "Financial Statement",
+	"version": "1.0.2",
+	"minAppVersion": "0.15.0",
+	"description": "Cretes Financial Statements. generates 3 files in _FS_ folder, to edit the company/idea name, use settings. It is based on Warren Buffett and the Interpretation of Financial Statements: The Search for the Company with a Durable Competitive Advantage.",
+	"author": "Hasan Ismail Ali",
+	"authorUrl": "https://github.com/hasanmullahadi",
+	"fundingUrl": {
+        "Buy Me a Coffee": "https://buymeacoffee.com/hasanIAAm"
+    },
+	"isDesktopOnly": false
+}

@@ -1,0 +1,10 @@
+# Obsidian per-user / per-session state — never commit
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/quickshare.json
+.obsidian/core-plugins-migration.json
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db

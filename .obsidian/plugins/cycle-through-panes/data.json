@@ -1,0 +1,7 @@
+{
+  "viewTypes": [
+    "markdown",
+    "file-explorer"
+  ],
+  "onlyRootLeaves": true
+}

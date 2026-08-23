@@ -1,0 +1,3 @@
+.pdf-page-break {
+  page-break-after: always; /* Forces a new page in PDF */
+}

@@ -1,0 +1,20 @@
+{
+  "fileDirections": {
+    "الديانات في العالم القديم.md": "rtl",
+    "Hypothetical Arabic.md": "rtl",
+    "Determinism poetry.md": "rtl",
+    "Public add for PC related work.md": "auto",
+    "new posts.md": "rtl",
+    "Tree Story.md": "rtl",
+    "Tota Assignment Atmosphere.md": "rtl",
+    "Fish.md": "rtl",
+    "Change In Self.md": "rtl",
+    "المعتزلة.md": "rtl",
+    "The Cycle of Decline AR.md": "rtl"
+  },
+  "defaultDirection": "ltr",
+  "rememberPerFile": true,
+  "setNoteTitleDirection": true,
+  "setYamlDirection": false,
+  "statusBar": true
+}
