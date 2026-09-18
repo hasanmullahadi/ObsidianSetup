@@ -4,6 +4,7 @@
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "page-break"
+    "page-break",
+    "checked-task-style"
   ]
 }

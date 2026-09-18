@@ -1,0 +1,10 @@
+{
+	"id": "task-balloons",
+	"name": "Task Balloons",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Releases a little burst of balloons whenever you tick a checklist item.",
+	"author": "Hasan Ismail Ali",
+	"authorUrl": "https://github.com/hasanmullahadi",
+	"isDesktopOnly": false
+}

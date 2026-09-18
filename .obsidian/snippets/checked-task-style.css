@@ -1,0 +1,36 @@
+/* Completed checklist items: underline instead of strikethrough,
+   italic, light green. */
+
+body {
+  --checklist-done-decoration: underline;
+  --checklist-done-color: #a6e3a1; /* light green (Catppuccin green) */
+}
+
+/* Reading view + rendered markdown (Tasks, Kanban, Dataview, etc.) */
+.markdown-rendered .task-list-item.is-checked,
+.markdown-rendered .task-list-item[data-task="x"],
+.markdown-rendered .task-list-item[data-task="X"],
+.markdown-rendered ul > li.task-list-item.is-checked,
+.plugin-tasks-list-item .task-list-item-checkbox:checked ~ *,
+.kanban-plugin__item.is-complete .kanban-plugin__item-markdown,
+
+/* Live Preview / source mode (CodeMirror 6) */
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"],
+.cm-s-obsidian .HyperMD-task-line[data-task="x"],
+.cm-s-obsidian .HyperMD-task-line[data-task="X"] {
+  color: #a6e3a1;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color: #a6e3a1;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  opacity: 1;
+}
+
+/* Don't underline/italicize the checkbox itself or inline embeds */
+.markdown-rendered .task-list-item.is-checked > input[type="checkbox"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"] input[type="checkbox"] {
+  text-decoration: none;
+}

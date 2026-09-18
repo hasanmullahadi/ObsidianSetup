@@ -16,11 +16,13 @@ That's it. Press `Cmd/Ctrl + D` to create your first daily note.
 
 ## What you get
 
-- 📅 **Daily notes** with a habit checklist and hourly time-blocking table (`Cmd/Ctrl + D`)
+- 📅 **Daily notes** built around a first-hour routine, a "big three", a protected deep-work block, and an end-of-day shutdown (`Cmd/Ctrl + D`)
 - 🗓️ **Weekly review notes** — what went well, what to improve, gratitude
 - 📋 **Kanban boards** for projects (drag-and-drop cards)
 - ✅ **GTD workflow** — Clarify → Organize → Reflect → Engage
 - ✏️ **Excalidraw** for sketches and diagrams
+- 🎈 **Task Balloons** — ticking a checklist item releases a burst of balloons (and only when you tick it, never when you un-tick)
+- ✅ **Completed tasks styled** in italic light green with an underline instead of a strikethrough
 - 🎨 **AnuPpuccin theme**, tuned and ready
 - 🌍 **RTL support** for Arabic/Hebrew notes (`Cmd/Ctrl + R`)
 - 📤 **Export to Word/PDF/LaTeX** (install [Pandoc](https://pandoc.org/installing.html) for full export support)
@@ -41,10 +43,16 @@ That's it. Press `Cmd/Ctrl + D` to create your first daily note.
 
 Calendar, Periodic Notes, Kanban, Tasks, Templater, Dataview, Excalidraw, Outliner, Advanced Slides, Style Settings, RTL, LanguageTool, Pandoc, Enhancing Export, PlantUML, Quick LaTeX, Table Generator, Checklist, Cycle Through Panes, Editor Syntax Highlight, Kindle Highlights, Chesser (chess), Financial Statement, Hot Reload.
 
+Plus two of our own, bundled in this vault:
+
+- **Task Balloons** — a burst of balloons when you complete a checklist item. Tune the emoji, count, and float time in **Settings → Task Balloons**, or turn it off entirely in **Settings → Community plugins**.
+- **`checked-task-style` snippet** — renders completed tasks in italic light green with an underline rather than a line through them. Edit the two colour values in `.obsidian/snippets/checked-task-style.css`, or switch it off in **Settings → Appearance → CSS snippets**.
+
 All plugins are open-source community plugins by their respective authors, bundled here for convenience under their own licenses. You can update them anytime from **Settings → Community plugins → Check for updates**.
 
 ## Make it yours
 
 - Edit `Templates/Daily Note Template.md` — change the habits to your own
+- Don't want balloons? **Settings → Community plugins → Task Balloons** → off
 - Delete plugins you don't need from **Settings → Community plugins**
 - Tweak the theme in **Settings → Appearance** and **Style Settings**
