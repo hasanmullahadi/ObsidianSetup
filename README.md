@@ -5,9 +5,13 @@ A ready-to-use [Obsidian](https://obsidian.md) vault, pre-configured for **daily
 ## Setup (2 minutes)
 
 1. **Install Obsidian** → [obsidian.md/download](https://obsidian.md/download)
-2. **Get this vault** — either:
+2. **Get this vault** — any of:
    - Click the green **Code** button above → **Download ZIP** → unzip it, **or**
-   - `git clone` this repository
+   - `git clone` this repository, **or**
+   - **let Claude Code do it** — from a terminal, ask it in plain words:
+     `claude "clone github.com/lumora-int/ObsidianSetup into ~/Notes and tell me what to click next"`
+     It clones the vault, puts it where you want it, and can adjust settings for you. The one
+     step it cannot do is the click inside Obsidian in step 4 — that dialog is yours.
 3. **Open it in Obsidian** — launch Obsidian → **Open folder as vault** → select the folder you just downloaded
 4. When asked, choose **"Trust author and enable plugins"** — this turns on the pre-installed community plugins (all open source, listed below)
 5. Open the **`Start Here`** note and follow along

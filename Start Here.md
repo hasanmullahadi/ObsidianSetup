@@ -6,6 +6,8 @@ Welcome! This vault is pre-configured so you can start working immediately. Here
 
 When you open this vault for the first time, Obsidian will ask if you **trust the author** — choose **Trust author and enable plugins**. All the plugins below are open-source community plugins and are already installed and configured.
 
+If you would rather not do the setup by hand, **Claude Code** can clone this vault, place it where you want it and adjust settings for you — ask it in plain words. It cannot click the trust dialog above, so that one stays with you.
+
 ## Daily workflow
 
 1. **Press `Cmd/Ctrl + D`** — opens (or creates) **today's daily note** in `Journal/`, pre-filled with your habit checklist and hourly time-blocking table. Edit `Templates/Daily Note Template.md` to make it yours.
