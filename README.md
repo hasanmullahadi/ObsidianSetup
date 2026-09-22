@@ -19,6 +19,7 @@ That's it. Press `Cmd/Ctrl + D` to create your first daily note.
 - 📅 **Daily notes** built around a first-hour routine, a "big three", a protected deep-work block, and an end-of-day shutdown (`Cmd/Ctrl + D`)
 - 🗓️ **Weekly review notes** — what went well, what to improve, gratitude
 - 📋 **Kanban boards** for projects (drag-and-drop cards)
+- 🏃 **A Scrum starter** — a sprint board and a sprint note (goal, daily, review, retrospective)
 - ✅ **GTD workflow** — Clarify → Organize → Reflect → Engage
 - ✏️ **Excalidraw** for sketches and diagrams
 - 🎈 **Task Balloons** — ticking a checklist item releases a burst of balloons (and only when you tick it, never when you un-tick)
@@ -38,6 +39,22 @@ That's it. Press `Cmd/Ctrl + D` to create your first daily note.
 ├── Kindle/       ← Kindle highlights (optional plugin sign-in)
 └── Start Here.md ← read this first
 ```
+
+## Scrum, if your team runs sprints
+
+The Kanban plugin also carries a ready Scrum setup, so you do not have to build one:
+
+| file | what it is |
+|---|---|
+| `Kanban/k_ Scrum Sprint Board.md` | the board — Product Backlog → Sprint Backlog → In Progress → In Review → Done |
+| `Templates/Scrum Sprint Template.md` | the sprint note — goal, capacity, daily blockers, review, retrospective |
+
+Two rules make it work, and both are written on the board itself: **In Progress is limited to
+three cards per person**, and **nothing is added to the Sprint Backlog after planning**. A sprint
+that absorbs new work mid-way stops being a commitment and becomes a list.
+
+Open the board, drag your cards, and start the sprint note from **Templates → Scrum Sprint
+Template** (Templater is already installed).
 
 ## Included community plugins
 
